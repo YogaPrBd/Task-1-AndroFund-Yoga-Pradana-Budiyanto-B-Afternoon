@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreBoard"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="High Score Record"/>
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blackborder"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Lightmode"
+            android:paddingHorizontal="10dp"/>
+
+        <TextView
+            android:id="@+id/lightModeScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Belum ada skor"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blackborder"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Darkmode"
+            android:paddingHorizontal="10dp"/>
+
+        <TextView
+            android:id="@+id/darkModeScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Belum ada skor"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
